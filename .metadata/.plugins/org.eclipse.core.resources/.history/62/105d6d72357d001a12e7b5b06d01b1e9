@@ -1,0 +1,5 @@
+package com.ferdi.matematik;
+
+public interface IMatematik {
+
+}

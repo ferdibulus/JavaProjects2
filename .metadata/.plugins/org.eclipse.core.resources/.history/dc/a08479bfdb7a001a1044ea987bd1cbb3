@@ -1,0 +1,29 @@
+package SehirTuru;
+
+import java.util.LinkedList;
+import java.util.ListIterator;
+
+public class Main {
+	public static void islemleri_bastir() {
+
+		System.out.println("0-Islemleri Goruntule..");
+		System.out.println("1-Bir sonraki sehire git..");
+		System.out.println("2-Bir onceki sehire git..");
+		System.out.println("3-Uygulamdan cik..");
+	}
+	
+	public static void sehirleri_turla(LinkedList<String> sehirler) {
+		ListIterator<String> iterator = sehirler.listIterator();
+		int islem;
+		islemleri_bastir();
+	}
+public static void main(String args[]) {
+	LinkedList<String> sehirler = new LinkedList<String>();
+	sehirler.add("Ankara");
+	sehirler.add("Istanbul");
+	sehirler.add("malatya");
+	sehirler.add("dersim");
+	
+	sehirleri_turla(sehirler);
+}
+}

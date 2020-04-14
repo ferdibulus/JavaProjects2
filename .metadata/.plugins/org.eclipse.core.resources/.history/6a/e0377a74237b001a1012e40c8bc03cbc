@@ -1,0 +1,10 @@
+package InterfaceRealLife;
+
+public class ComplexUserCheckServis {
+	public boolean checkUser(User user){
+		if(user.getAge() >= 18 && user.getName().startsWith("fe")) {
+			return true;
+		}
+		return false;
+	}
+}

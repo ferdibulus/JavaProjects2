@@ -1,0 +1,11 @@
+package InterfaceRealLife;
+
+public class AgeUserCheckServis implements IUserCheckServis{
+	//Methods
+	public boolean checkUser(User user){
+		if(user.getAge() >= 18) {
+			return true;
+		}
+		return false;
+	}
+}

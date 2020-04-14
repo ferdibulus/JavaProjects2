@@ -1,0 +1,7 @@
+package InterfaceRealLife;
+
+public class SignUpManager {
+	public void signUp(User user){
+		System.out.println("Kullanici kayit oldu: " + user.getName());
+	}
+}

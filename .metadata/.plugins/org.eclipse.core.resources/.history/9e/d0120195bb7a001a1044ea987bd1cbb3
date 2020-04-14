@@ -1,0 +1,24 @@
+package LinkList;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+
+public class Main {
+	public static void listeyi_bastir(LinkedList<String> gidilecekyerler) {
+		for(String s:gidilecekyerler) {
+			System.out.println(s);
+		}
+	}
+public static void main(String args[]) {
+	LinkedList<String> gidilecekyerler  = new LinkedList<String>();
+	
+	gidilecekyerler.add("Posthane");
+	gidilecekyerler.add("Markeet");
+	gidilecekyerler.add("Okul");
+	gidilecekyerler.add("Kutuphane");
+	gidilecekyerler.add("Spor salonu");
+	gidilecekyerler.add("Ev");
+	
+	
+}
+}

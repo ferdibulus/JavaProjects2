@@ -1,0 +1,5 @@
+package LinkList;
+
+public interface IMuhendis {
+
+}

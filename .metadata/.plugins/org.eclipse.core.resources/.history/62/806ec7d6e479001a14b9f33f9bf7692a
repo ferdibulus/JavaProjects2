@@ -1,0 +1,28 @@
+package ArrayList;
+
+import java.util.ArrayList;
+
+public class Main {
+	public static void main(String args[]) {
+		
+	ArrayList<String> arrayList = new ArrayList<String>();
+	arrayList.add("metallica");
+	arrayList.add("guns and roses");
+	arrayList.add("blackeyes");
+	arrayList.add("ironman");
+	
+	System.out.println(arrayList.get(0));
+	System.out.println(arrayList.get(3));
+	System.out.println(arrayList.size());
+	
+	for(String a:arrayList) {
+		System.out.println(a);
+	}
+	arrayList.remove(1);
+	for(String a:arrayList) {
+		System.out.println(a);
+	}
+	System.out.println(arrayList.indexOf("ironman"));
+	arrayList.set(0, "elementOrnek")
+}
+}

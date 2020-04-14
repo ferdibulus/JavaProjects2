@@ -1,0 +1,12 @@
+package Arrays;
+
+public class Main {
+public static void main(String args[]) {
+	//int a= 5;
+	int[] a = new int[10];
+	a[5] = 32;
+	System.out.println(a[5]);
+	//double[] b;
+	
+ }
+}

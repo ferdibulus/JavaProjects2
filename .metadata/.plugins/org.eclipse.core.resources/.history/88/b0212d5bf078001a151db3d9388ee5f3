@@ -1,0 +1,84 @@
+package Polymorphisim;
+
+
+
+class A{
+	private String name;
+	public A(String name) {
+		
+		this.name = name;
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void konus() {
+		
+		System.out.println(this.name + "calisiyor");
+	}
+	
+}
+
+class B extends A{
+	private String name;
+
+	public B(String name, String name2) {
+		super(name);
+		name = name2;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	@Override
+	public void konus() {
+		// TODO Auto-generated method stub
+		System.out.println(this.name + "working");
+	}
+	
+	
+	
+}
+
+class C extends A{
+	private String name;
+
+	public C(String name, String name2) {
+		super(name);
+		name = name2;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	@Override
+	public void konus() {
+		// TODO Auto-generated method stub
+		System.out.println(this.name + "yatiyor");
+	}
+	
+	
+	
+}
+public class Main {
+	public static void main(String args[]) {
+	A a = new A("ferdi");
+	a.konus();
+	
+	}	
+}

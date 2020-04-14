@@ -1,0 +1,18 @@
+package LinkList;
+
+import java.util.ArrayList;
+
+public class Main {
+public static void main(String args[]) {
+	ArrayList<String> diller = new ArrayList<String>();
+	diller.add("Java");
+	diller.add("PHP");
+	diller.add("javaSCRIPT");
+	diller.add("html");
+	
+	for(String a:diller) {
+		System.out.println(a);
+	}
+	
+}
+}

@@ -1,0 +1,5 @@
+package StaticInnerClass;
+
+public class Matematik {
+	private double PI = Math.PI;
+}

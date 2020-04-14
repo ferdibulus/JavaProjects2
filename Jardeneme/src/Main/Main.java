@@ -1,0 +1,9 @@
+package Main;
+
+import com.ferdi.matematik.Matematik;
+public class Main {
+		public static void main(String args[]) {
+			Matematik matematik = new Matematik();
+			matematik.toplama(3, 5);
+		}
+}

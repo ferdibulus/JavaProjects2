@@ -1,0 +1,28 @@
+package TrainingArray;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Hayvan {
+	private String name;
+	
+	public Hayvan(String name) {
+		this.name = name;
+	}
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public static void arrayOlustur() {
+		ArrayList<String> arrayList = new ArrayList<String>();
+		Scanner scan = new Scanner(System.in);
+		
+	}
+	
+	
+}	

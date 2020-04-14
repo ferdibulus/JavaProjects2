@@ -1,0 +1,30 @@
+package YurtdisiCikisProgrami;
+
+public class Yolcu implements YurtdisiKurallari {
+	private int harc;
+	private boolean siyasiYasak;
+	private boolean vizeDurumu;
+	
+	public Yolcu(int harc, boolean siyasiYasak, boolean vizeDurumu) {
+		
+		this.harc = harc;
+		this.siyasiYasak = siyasiYasak;
+		this.vizeDurumu = vizeDurumu;
+	}
+	@Override
+	public boolean yurtdisiHarci() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	@Override
+	public boolean siyasiYasak() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	@Override
+	public boolean vizeDurumu() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+}

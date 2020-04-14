@@ -1,0 +1,13 @@
+package GenericClass;
+
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Character[] char_dizi = { 'J', 'A' , 'V' , 'A'};
+		
+	}
+	
+	
+}

@@ -1,0 +1,80 @@
+package TrainingLinkList;
+
+import java.util.LinkedList;
+import java.util.ListIterator;
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void bastir(LinkedList<Integer> siralasayilari) {
+		ListIterator<Integer> iterator = siralasayilari.listIterator();
+		while(iterator.hasNext()) {
+			System.out.println(iterator.next());
+		}
+	}
+	
+	public static void ekle(LinkedList<Integer> siralasayilari,int yenisayi) {
+		ListIterator<Integer> iterator = siralasayilari.listIterator();
+		while(iterator.hasNext()) {
+			int karsilatir = iterator.next().compareTo(yenisayi);
+			if(karsilatir == 0) {
+				//ikid eger esit
+				System.out.println("Listenizde bu eleman zaten var");
+				return;
+			}
+			
+			else if(karsilatir < 0) {
+				
+			}
+			else if(karsilatir > 0) {
+				iterator.previous();
+				iterator.add(yenisayi);
+				
+				return;
+			}
+		}
+		iterator.add(yenisayi);
+			
+		}
+	
+	public static void sil(LinkedList<Integer> siralasayilari,Integer silinensayi) {
+		ListIterator<Integer> iterator = siralasayilari.listIterator();
+			iterator.remove(silinensayi);
+		}
+		
+	
+public static void main(String args[]) {
+	LinkedList<Integer> siralasayilari = new LinkedList<Integer>();
+	System.out.println("Sayi sirlamaya hosgeldiniz..");
+	String islemler = "1.Sayi ekle\n"
+			          +"2.Sayi sil\n"
+			          +"3.Araya sayi ekle\n"
+			          +"4.Cikis icin Q'ya basiniz";
+	
+	do{
+		System.out.println(islemler);
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Bir islem seciniz:");
+		String islem = scanner.nextLine();
+		if(islem.equals("q")) {
+			System.out.println("Programdan cikiliyor");
+			break;
+		}else if(islem.equals("1")) {
+			System.out.print("Eklemek istediginiz sayi:");
+			int eklenensayi = scanner.nextInt();
+			ekle(siralasayilari, eklenensayi);
+			bastir(siralasayilari);
+			System.out.println("*********************");
+		}else if(islem.equals("2")) {
+			System.out.print("Silmek istediginiz sayi:");
+			int silinensayi = scanner.nextInt();
+			sil(siralasayilari, silinensayi);
+			bastir(siralasayilari);
+			System.out.println("*********************");
+		}
+		
+		
+	}while(true);
+	
+}
+}

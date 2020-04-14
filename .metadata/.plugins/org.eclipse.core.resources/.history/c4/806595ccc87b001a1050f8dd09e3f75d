@@ -1,0 +1,22 @@
+package StaticAnahtarKelimsei;
+
+public class Seyirci {
+	private String isim;
+
+	public Seyirci(String isim) {
+	
+		this.isim = isim;
+	}
+
+	public String getIsim() {
+		return isim;
+	}
+
+	public void setIsim(String isim) {
+		this.isim = isim;
+	}
+	
+	public void oyun_seyret() {
+		System.out.println(getIsim() + " oyun seyrediyor..");
+	}
+}

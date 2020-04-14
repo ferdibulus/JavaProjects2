@@ -1,0 +1,21 @@
+package ArrayList;
+
+import java.util.ArrayList;
+
+public class Main {
+	public static void yazdir(ArrayList<String> a) {
+		for(int i = 0; i<a.size(); i++) {
+			System.out.println("Element:" + (i+1) + a.get(i) );
+		}
+	}
+	public static void main(String args[]) {
+		
+	ArrayList<String> arrayList = new ArrayList<String>();
+	arrayList.add("metallica");
+	arrayList.add("guns and roses");
+	arrayList.add("blackeyes");
+	arrayList.add("ironman");
+	
+	yazdir(arrayList);
+}
+}

@@ -1,0 +1,45 @@
+package Polymorphisim;
+	
+	class Hayvan{
+		private String isim;
+
+		public Hayvan(String isim) {
+			
+			this.isim = isim;
+		}
+
+		public String getIsim() {
+			return isim;
+		}
+
+		public void setIsim(String isim) {
+			this.isim = isim;
+		}
+		
+		public String konus() {
+			return this.isim + " konusuyor";
+		}
+		
+	}
+	
+	class Kedi extends Hayvan{
+
+		public Kedi(String isim) {
+			super(isim);
+			
+		}
+
+		@Override
+		public String konus() {
+			// TODO Auto-generated method stub
+			return this.isim + " miyavliyor";
+		}
+		
+		
+	}
+	
+	public class Main {
+	  public static void main(String[] args) {
+	    
+	  }
+	}

@@ -1,0 +1,5 @@
+package AbstractClass;
+
+public class Kare extends Sekil {
+
+}

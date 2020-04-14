@@ -1,0 +1,15 @@
+package SehirTuru;
+
+import java.util.LinkedList;
+
+public class Main {
+public static void main(String args[]) {
+	LinkedList<String> sehirler = new LinkedList<String>();
+	sehirler.add("Ankara");
+	sehirler.add("Istanbul");
+	sehirler.add("malatya");
+	sehirler.add("dersim");
+	
+	
+}
+}

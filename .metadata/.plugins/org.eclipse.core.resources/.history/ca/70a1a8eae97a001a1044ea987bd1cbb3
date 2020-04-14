@@ -1,0 +1,32 @@
+package Interfaces;
+
+public class pcMuhendisi implements IMuhendis {
+	private boolean askerlik;
+	private boolean adli_sicil;
+	@Override
+	public void askerlikDurumuSorgula() {
+		// TODO Auto-generated method stub
+		this.adli_sicil = adli_sicil;
+		this.askerlik = askerlik;
+		
+	}
+
+	@Override
+	public String mezuniyetOrtalamasi(double derece) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void adliSicilSorugula() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void isTecrubesi(String[] array) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

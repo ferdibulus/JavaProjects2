@@ -1,0 +1,14 @@
+package TrainingArray;
+
+import java.util.ArrayList;
+
+public class Hayvan {
+	private String name;
+	private String[] ArrayList<String> arrayList = new ArrayList<String>();
+	public Hayvan(String name) {
+		
+		this.name = name;
+	}
+	
+	
+}	

@@ -1,0 +1,8 @@
+package Cards;
+
+public class Main {
+public static void main(String args[]) {
+	Kart[][] kartlar = new Kart[4][4];
+	
+}
+}

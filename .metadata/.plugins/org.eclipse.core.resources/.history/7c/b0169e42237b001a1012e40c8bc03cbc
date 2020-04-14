@@ -1,0 +1,5 @@
+package InterfaceRealLife;
+
+public interface IUserCheckServis {
+
+}

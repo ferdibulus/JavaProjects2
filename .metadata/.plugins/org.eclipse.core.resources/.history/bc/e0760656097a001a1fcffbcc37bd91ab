@@ -1,0 +1,12 @@
+package String;
+
+public class Main {
+public static void main(String args[]) {
+	String a = "Mustafa";
+	String b = new String("Mustafa");
+	
+	System.out.println(b);
+	System.out.println("Harf sayisi:" + b.length());
+	System.out.println("0.inci index:" +b.charAt(0));
+}
+}

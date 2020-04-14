@@ -1,0 +1,43 @@
+package AutoboxingveUnboxing;
+
+import java.util.ArrayList;
+
+public class Main {
+public static void main(String args[]) {
+	
+	ArrayList<String> arrayList = new ArrayList<String>();
+	ArrayList<Integer> arrayList2 = new ArrayList<Integer>();//rapper class Integer/Double etc.
+	
+	for(int i=0; i<10; i++) {
+		arrayList2.add(Integer.valueOf(i));
+	}
+	for(int i=0; i<arrayList2.size(); i++) {
+		System.out.println(arrayList2.get(i).intValue());
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+}

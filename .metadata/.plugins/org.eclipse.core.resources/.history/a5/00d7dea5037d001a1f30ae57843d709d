@@ -1,0 +1,13 @@
+package GenericClass;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		toplama(5, 3, 2);
+	}
+	
+	public static void toplama(int a,int b,int c) {
+		System.out.println(a+b+c);
+	}
+}

@@ -1,0 +1,36 @@
+package Staticolmayaninnerclass;
+
+public class Main {
+	public static class BaseA{
+		private String name;
+		public static int sayac = 0;
+		public BaseA(String name,int sayac) {
+			
+			this.name = name;
+			this.sayac = sayac;
+		}
+		public String getName() {
+			return name;
+		}
+		public void setName(String name) {
+			this.name = name;
+		}
+		public static int getSayac() {
+			return sayac++;
+		}
+		public static void setSayac(int sayac) {
+			BaseA.sayac = sayac;
+		}
+		public void yazdir() {
+			System.out.println(getName() + " isimli oyuncu calisiyor.");
+		}
+		
+	}
+	
+	
+	public static void main(String[] args) {
+			
+
+	}
+
+}

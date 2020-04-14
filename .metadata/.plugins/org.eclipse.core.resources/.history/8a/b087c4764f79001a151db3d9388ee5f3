@@ -1,0 +1,14 @@
+package Cards;
+
+import java.util.Scanner;
+
+public class Main {
+public static void main(String args[]) {
+	Cards[][] kartlar = new Cards[4][4];
+	Scanner scan = new Scanner(System.in);
+	
+
+		
+	}
+}
+

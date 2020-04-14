@@ -1,0 +1,12 @@
+package Sarkicilar;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class main {
+	private static Sarkicilar sarkicilar = new Sarkicilar();
+	private static Scanner scanner = new Scanner(System.in);
+public static void main(String args[]) {
+	
+}
+}

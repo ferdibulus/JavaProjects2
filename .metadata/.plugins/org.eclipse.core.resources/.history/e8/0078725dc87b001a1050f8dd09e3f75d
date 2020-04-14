@@ -1,0 +1,6 @@
+package StaticAnahtarKelimsei;
+
+public class Seyirci {
+	private String isim;
+	
+}

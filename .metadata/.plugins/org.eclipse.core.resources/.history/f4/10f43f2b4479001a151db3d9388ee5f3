@@ -1,0 +1,13 @@
+package Arrays;
+
+public class Main {
+public static void main(String args[]) {
+	//int a= 5;
+	int[] a = {10,25,34,44,50,60,70,84,94,10};
+	//a[5] = 32;
+	//a[9] = 10;
+	System.out.println(a[0]);
+	//double[] b;
+	
+ }
+}

@@ -1,0 +1,19 @@
+package forEach;
+
+public class Mian {
+	public static void main(String args[]) {
+		
+		String[] array = {"Elma" , "Armut" , "Kiraz"};
+		int[] array2 = {1,2,3,4,5};
+		deneme[] array3 = {new deneme("ferdi"), new deneme("bulus")};
+		for(String a : array) {
+			System.out.println(a);
+		}
+		for(int a : array2) {
+			System.out.println(a);
+		}
+		for(deneme b : array3) {
+		 b.yaz();
+		}
+	}
+}

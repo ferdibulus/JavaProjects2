@@ -1,0 +1,11 @@
+package TrainingArray;
+
+public class Main {
+public static void main(String args[]) {
+	String[] array1 = {"ferdi","erdi","emir"};
+	for(String a:array1) {
+		System.out.println(a);
+		
+	}
+ }
+}

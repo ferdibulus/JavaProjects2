@@ -1,0 +1,8 @@
+package YurtdisiCikisProgrami;
+
+public class Yolcu implements YurtdisiKurallari {
+	private int harc;
+	private boolean siyasiYasak;
+	private boolean vizeDurumu;
+	
+}
