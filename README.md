@@ -13,5 +13,5 @@ All samples are contain every single details for Java
    10-Strings
    11-Autoboxing ve Unboxing
    12-Packages
-   13-Some trainings for all subjects
+   13-Some trainings for all subjectsd44dsf
    
