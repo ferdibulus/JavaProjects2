@@ -1,5 +1,8 @@
 # JavaProjects2
-All samples are contain every single details for Java                                                                                            
+All samples are contain every single details for Java .
+
+***Projects located in introJava/src/ 
+
   <--------- Subjects ---------->
   
    1-Abstract Class
