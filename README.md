@@ -1,5 +1,5 @@
 # JavaProjects2
-All samples are contain every single details for Java
+All samples are contain every single details for Java                                                                                            
   <--------- Subjects ---------->
    1-Abstract Class
    2-Arrays
@@ -13,5 +13,5 @@ All samples are contain every single details for Java
    10-Strings
    11-Autoboxing ve Unboxing
    12-Packages
-   13-Some trainings for all subjectsd44dsf
+   13-Some trainings for all subjects
    
